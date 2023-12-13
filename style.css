@@ -27,3 +27,11 @@ h2 {
     border: 5px black solid;
     margin:5px;
 }
+
+/* The below will help you enter the science page. */
+<ul>
+  <li><a href="science.html">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul>
