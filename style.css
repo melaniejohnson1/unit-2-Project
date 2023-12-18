@@ -1,6 +1,21 @@
+/* The code below changes the background color */
+
+body {
+  background-color: #FDDA0D;
+}
+
+.section-1 {
+  background-color: #FFF;
+}
+.section-2 {
+  background-color: #FFF;
+}
+.section-3 {
+  background-color: #FFF;
+}
 /* The code below centers the text of all h1's on the page. */
 h1 {
-    text-align:center;
+  text-align: center;
 }
 
 /* The code below centers all images on the page and gives them a width of 400px. */
@@ -8,30 +23,28 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:400px;
+  width: 400px;
 }
 
 /* The code below centers the text of all h2's on the page. */
 h2 {
-    text-align:center;
+  text-align: center;
+}
+
+/* The code below centers the text of general info and changes it green. */
+.general-information {
+  text-align: center;
+  color: #005249;
 }
 
 /* The code below aligns all the sections horizontally on the bottom. */
 .section-container {
-    display:flex;
-    justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* The code below a solid black border to section and puts space between them (the margin). */
 .section {
-    border: 5px black solid;
-    margin:5px;
+  border: 5px black solid;
+  margin: 5px;
 }
-
-/* The below will help you enter the science page. */
-<ul>
-  <li><a href="science.html">Home</a></li>
-  <li><a href="news.asp">News</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-  <li><a href="about.asp">About</a></li>
-</ul>
